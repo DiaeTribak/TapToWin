@@ -46,7 +46,7 @@ public class Gui extends JFrame implements ActionListener, iObserver {
         container.add(this.restartGame);
         container.add(this.panelGame);
         this.setDefaultCloseOperation(3);
-        this.setSize(500, 300);
+        this.setSize(500, 325);
         this.getContentPane().add(container);
         this.setVisible(true);
     }
